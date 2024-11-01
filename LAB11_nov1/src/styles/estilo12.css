@@ -1,0 +1,48 @@
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+            background-image: url('C:\WORKSPACE\LAB11_nov1\src\img\coding.jpg'); 
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: #ffffff;
+        }
+
+        .section {
+            background-color: rgba(0, 0, 0, 0.7); 
+            border-radius: 15px; 
+            padding: 20px;
+            margin: 10px;
+            width: 300px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+        }
+
+        input, button {
+            margin: 5px;
+            padding: 10px;
+            font-size: 16px;
+            width: 90%;
+            border-radius: 10px;
+            border: none;
+        }
+
+        input[type="text"], input[type="number"], input[type="password"] {
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        button {
+            background-color: #4CAF50; 
+            color: #ffffff;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s ease; 
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
